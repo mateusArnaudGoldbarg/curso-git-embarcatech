@@ -1,0 +1,14 @@
+mkdir ~/Documentos/curso-git-embarcatech
+cd ~/Documentos/curso-git-embarcatech
+git init
+git config user.name "Mateus Goldbarg"
+git config user.email "mateusarnaud@hotmail.com"
+echo "Mateus Arnaud Santos de Sousa Goldbarg\n20251ZL00130030" > identification.txt
+git add identification.txt
+git commit -m "first commit git-embarcatech"
+git remote add origin https://github.com/mateusArnaudGoldbarg/curso-git-embarcatech.git
+git branch -m main
+git push -u origin main
+git add command_list.txt
+git commit -m "Add: Command List"
+git push
